@@ -8,7 +8,7 @@
     <artifactId>docker-jenkins-integration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-        <finalName>docker-jenkins-integration.jar</finalName>
+        <finalName>docker-jenkins-integration</finalName>
     </build>
 
     <properties>
