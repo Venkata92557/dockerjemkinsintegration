@@ -8,6 +8,20 @@
     <artifactId>docker-jenkins-integration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>dockerjenkinsintegration</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
         <finalName>docker-jenkins-integration</finalName>
     </build>
 
